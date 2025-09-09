@@ -1,5 +1,5 @@
 from typing import Literal, Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 class MoveToCommandParams(BaseModel):
@@ -25,10 +25,19 @@ class StartPatrolCommandParams(BaseModel):
         default="medium", description="Patrol speed"
     )
     repeat_count: int = Field(
-        default=1, 
-        ge=-1,  # Greater than or equal to -1
+        default=1,
         description="Number of patrol loops. -1 for continuous, >= 1 for finite loops"
     )
+
+    @field_validator('repeat_count')
+    @classmethod
+    def validate_repeat_count(cls, v):
+        if v == 0:
+            raise ValueError('repeat_count cannot be 0. Use -1 for continuous or >= 1 for finite loops')
+        if v < -1:
+            raise ValueError('repeat_count must be -1 (continuous) or >= 1 for finite loops')
+        return v
+
 
 
 class RobotCommand(BaseModel):
