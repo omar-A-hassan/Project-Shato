@@ -5,7 +5,7 @@ Microservices architecture for SHATO.
 ## Services
 - 
   robot-validator-api ✅ (implemented)
-- llm-service (in progress)
+- llm-service (pending)
 - stt-service (pending)
 - tts-service (pending)
 - ui-service (pending)
