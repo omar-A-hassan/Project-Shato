@@ -1,5 +1,4 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import JSONResponse
 import logging
 
 from .schemas.api_schemas import CommandRequest, CommandValidationResponse
@@ -39,11 +38,17 @@ async def execute_command(request: CommandRequest):
     4. Returns appropriate success or error response
     """
     try:
-        # Extract command and parameters from request
+        # Extract command, parameters, and correlation ID from request
         command = request.command
         command_params = request.command_params
+        correlation_id = getattr(request, 'correlation_id', 'unknown') or 'unknown'
         
-        logger.info(f"[ROBOT-VALIDATOR] Received command request: {command} with params {command_params}")
+        logger.info("validator_request_received", extra={
+            "correlation_id": correlation_id,
+            "command": command,
+            "command_params": command_params,
+            "service": "validator"
+        })
         
         # Validate the command
         is_valid, success_response, error_response = validator.validate_command(
@@ -52,14 +57,33 @@ async def execute_command(request: CommandRequest):
         
         if is_valid:
             # Command is valid - simulate robot action
+            logger.info("validation_success", extra={
+                "correlation_id": correlation_id,
+                "command": command,
+                "service": "validator"
+            })
+            
             simulation_result = simulate_robot_action(command, command_params)
             
             # Add simulation result to success response
             success_response.message = f"{success_response.message}. {simulation_result}"
             
+            logger.info("command_executed", extra={
+                "correlation_id": correlation_id,
+                "command": command,
+                "simulation_result": simulation_result,
+                "service": "validator"
+            })
+            
             return success_response
         else:
             # Command is invalid - return error
+            logger.info("validation_failed", extra={
+                "correlation_id": correlation_id,
+                "command": command,
+                "error": error_response.error,
+                "service": "validator"
+            })
             return error_response
             
     except Exception as e:
