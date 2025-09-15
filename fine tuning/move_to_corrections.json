@@ -1,0 +1,530 @@
+[
+  {
+    "user_input": "move to 5",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Moving to coordinates 5, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 5.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to y coordinate 7",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Moving to coordinates 0, 7 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 7.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to 15",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Navigating to coordinates 15, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 15.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to x=10",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Heading to coordinates 10, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 10.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to y=-5",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Traveling to coordinates 0, -5 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": -5.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to x coordinate 8",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Going to coordinates 8, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 8.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to -3.5",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Moving to coordinates -3.5, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": -3.5, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to y position 12",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Navigating to coordinates 0, 12 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 12.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to 22.1",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Going to coordinates 22.1, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 22.1, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to y=-8.3",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Heading to coordinates 0, -8.3 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": -8.3}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to position 33",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Traveling to coordinates 33, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 33.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to x coordinate -15",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Moving to coordinates -15, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": -15.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to y value 25",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Navigating to coordinates 0, 25 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 25.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to 0",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Going to coordinates 0, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to y=18.7",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Heading to coordinates 0, 18.7 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 18.7}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to 45.6",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Traveling to coordinates 45.6, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 45.6, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to x position 7",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Moving to coordinates 7, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 7.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to y coordinate -20",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Navigating to coordinates 0, -20 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": -20.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to -12",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'y'",
+    "expected_output": {
+      "response": "Going to coordinates -12, 0 (assuming y=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": -12.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to y=-30.5",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Heading to coordinates 0, -30.5 (assuming x=0 for missing coordinate)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": -30.5}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to five",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Moving to coordinates 5, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 5.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to x=seven, y=three",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Going to coordinates 7, 3 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 7.0, "y": 3.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to ten, eight",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Navigating to coordinates 10, 8 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 10.0, "y": 8.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to fifteen",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Traveling to coordinates 15, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 15.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to x=twenty, y=thirty",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Moving to coordinates 20, 30 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 20.0, "y": 30.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to ninety",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Going to coordinates 90, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 90.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to forty-five, sixty",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Heading to coordinates 45, 60 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 45.0, "y": 60.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to x=one, y=nine",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Navigating to coordinates 1, 9 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 1.0, "y": 9.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to fifty",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Traveling to coordinates 50, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 50.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to six, four",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Moving to coordinates 6, 4 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 6.0, "y": 4.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to x coordinate eleven",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Going to coordinates 11, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 11.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to y coordinate fourteen",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Navigating to coordinates 0, 14 (converted word number to numeric and assumed x=0)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 14.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to twelve, sixteen",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Heading to coordinates 12, 16 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 12.0, "y": 16.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to x=eighteen",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Traveling to coordinates 18, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 18.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to y=nineteen",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Moving to coordinates 0, 19 (converted word number to numeric and assumed x=0)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 19.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to eighty, seventy",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Going to coordinates 80, 70 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 80.0, "y": 70.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to thirteen",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Navigating to coordinates 13, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 13.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to x=seventeen, y=twenty-one",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Heading to coordinates 17, 21 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 17.0, "y": 21.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to twenty-five",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Traveling to coordinates 25, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 25.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to two, twenty-two",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Moving to coordinates 2, 22 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 2.0, "y": 22.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to y coordinate twenty-three",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Going to coordinates 0, 23 (converted word number to numeric and assumed x=0)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 23.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to thirty-three, forty-four",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Navigating to coordinates 33, 44 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 33.0, "y": 44.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to x position twenty-four",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Heading to coordinates 24, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 24.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "travel to x=twenty-six, y=twenty-seven",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Traveling to coordinates 26, 27 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 26.0, "y": 27.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "move to twenty-eight",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Moving to coordinates 28, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 28.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "go to y value twenty-nine",
+    "retry_context": "Invalid params for 'move_to': Missing required key 'x'",
+    "expected_output": {
+      "response": "Going to coordinates 0, 29 (converted word number to numeric and assumed x=0)",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 29.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "navigate to thirty-one, thirty-two",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Navigating to coordinates 31, 32 (converted word numbers to numeric values)",
+      "command": "move_to",
+      "command_params": {"x": 31.0, "y": 32.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "head to one hundred",
+    "retry_context": "Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number",
+    "expected_output": {
+      "response": "Heading to coordinates 100, 0 (converted word number to numeric and assumed y=0)",
+      "command": "move_to",
+      "command_params": {"x": 100.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "self_correction"
+  }
+]

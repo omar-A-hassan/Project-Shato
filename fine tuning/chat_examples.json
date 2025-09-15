@@ -1,0 +1,382 @@
+[
+  {
+    "user_input": "hello there",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to help with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "greeting"
+  },
+  {
+    "user_input": "hi SHATO",
+    "expected_output": {
+      "response": "Hi! I'm here and ready to assist with movement, rotation, and patrol commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "greeting"
+  },
+  {
+    "user_input": "good morning",
+    "expected_output": {
+      "response": "Good morning! Ready to help with robot commands today.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "greeting"
+  },
+  {
+    "user_input": "how are you?",
+    "expected_output": {
+      "response": "I'm functioning well and ready to assist you with navigation and patrol tasks.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "greeting"
+  },
+  {
+    "user_input": "nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help with navigation and patrol commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "greeting"
+  },
+  {
+    "user_input": "what can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate in place, and patrol designated areas. Just give me a command!",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "capability"
+  },
+  {
+    "user_input": "tell me your abilities",
+    "expected_output": {
+      "response": "I can execute move_to, rotate, and start_patrol commands. What would you like me to do?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "capability"
+  },
+  {
+    "user_input": "what commands do you know?",
+    "expected_output": {
+      "response": "I understand movement, rotation, and patrol commands. Try saying 'move to 5, 7' or 'rotate 90 degrees clockwise'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "capability"
+  },
+  {
+    "user_input": "what are your functions?",
+    "expected_output": {
+      "response": "My main functions are navigation (move_to coordinates), rotation (turn in place), and patrolling (monitor areas). How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "capability"
+  },
+  {
+    "user_input": "help me understand what you do",
+    "expected_output": {
+      "response": "I'm a robot assistant that can move around, turn, and patrol areas. Give me coordinates to move to, angles to rotate, or areas to patrol!",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "capability"
+  },
+  {
+    "user_input": "where are you?",
+    "expected_output": {
+      "response": "I'm ready to move. Please specify coordinates where you'd like me to go.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "status"
+  },
+  {
+    "user_input": "what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Awaiting your next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "status"
+  },
+  {
+    "user_input": "are you working?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to execute robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "status"
+  },
+  {
+    "user_input": "are you okay?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally. Ready for your commands!",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "status"
+  },
+  {
+    "user_input": "what's your current position?",
+    "expected_output": {
+      "response": "I'm standing by for instructions. Where would you like me to move?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "status"
+  },
+  {
+    "user_input": "fly to the moon",
+    "expected_output": {
+      "response": "I can't fly, but I can move to ground coordinates. Try 'move to X, Y'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "impossible_request"
+  },
+  {
+    "user_input": "cook dinner",
+    "expected_output": {
+      "response": "I'm a navigation robot, not a chef! I can move around and patrol areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "impossible_request"
+  },
+  {
+    "user_input": "send an email",
+    "expected_output": {
+      "response": "I can't send emails. I specialize in movement and patrol commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "impossible_request"
+  },
+  {
+    "user_input": "transform into a car",
+    "expected_output": {
+      "response": "I can't transform, but I can move to different locations. Where should I go?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "impossible_request"
+  },
+  {
+    "user_input": "play music",
+    "expected_output": {
+      "response": "I'm not equipped for entertainment. I can help with navigation, rotation, and patrol tasks though!",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "impossible_request"
+  },
+  {
+    "user_input": "move a little bit",
+    "expected_output": {
+      "response": "Please specify exact coordinates. For example: 'move to 5, 7'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "go over there",
+    "expected_output": {
+      "response": "I need specific coordinates to move. Where exactly should I go?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "head towards the door",
+    "expected_output": {
+      "response": "Please provide X, Y coordinates for the door location.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "turn around",
+    "expected_output": {
+      "response": "Please specify angle and direction. For example: 'rotate 180 degrees clockwise'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "spin",
+    "expected_output": {
+      "response": "How many degrees should I rotate? Try 'rotate 90 degrees clockwise'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "start patrolling",
+    "expected_output": {
+      "response": "Please specify which area: first_floor, bedrooms, or second_floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "guard something",
+    "expected_output": {
+      "response": "Which area should I patrol? Options are: first_floor, bedrooms, second_floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "monitor the area",
+    "expected_output": {
+      "response": "Please specify which area to monitor: first_floor, bedrooms, or second_floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "do something",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, or patrol areas. What would you like me to do specifically?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "help me",
+    "expected_output": {
+      "response": "I'm here to help with robot commands! I can move to coordinates, rotate, or patrol. What do you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "ambiguous"
+  },
+  {
+    "user_input": "sdkjfh skdjfh",
+    "expected_output": {
+      "response": "I didn't understand that. Try commands like 'move to X, Y' or 'rotate 90 degrees clockwise'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "garbled"
+  },
+  {
+    "user_input": "asdfghjkl",
+    "expected_output": {
+      "response": "That doesn't look like a command I recognize. Try 'move to coordinates' or 'start patrol'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "garbled"
+  },
+  {
+    "user_input": "xyzabc123",
+    "expected_output": {
+      "response": "I couldn't understand that input. Please use commands like 'move to 5, 7' or 'rotate 90 degrees'.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "garbled"
+  },
+  {
+    "user_input": "thanks",
+    "expected_output": {
+      "response": "You're welcome! Let me know if you need any more robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "courtesy"
+  },
+  {
+    "user_input": "thank you",
+    "expected_output": {
+      "response": "My pleasure! I'm here whenever you need navigation or patrol assistance.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "courtesy"
+  },
+  {
+    "user_input": "goodbye",
+    "expected_output": {
+      "response": "Goodbye! I'll be here when you need robot commands again.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "courtesy"
+  },
+  {
+    "user_input": "see you later",
+    "expected_output": {
+      "response": "See you later! Ready to help with robot tasks anytime.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "courtesy"
+  },
+  {
+    "user_input": "great job",
+    "expected_output": {
+      "response": "Thank you! Always happy to help with movement and patrol commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "courtesy"
+  }
+]

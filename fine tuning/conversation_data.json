@@ -1,0 +1,4290 @@
+[
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "hello there"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Hello! I'm SHATO, ready to help with robot commands.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "hi SHATO"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Hi! I'm here and ready to assist with movement, rotation, and patrol commands.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "good morning"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Good morning! Ready to help with robot commands today.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "how are you?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I'm functioning well and ready to assist you with navigation and patrol tasks.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "nice to meet you"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Nice to meet you too! I'm here to help with navigation and patrol commands.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "what can you do?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I can move to coordinates, rotate in place, and patrol designated areas. Just give me a command!\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "tell me your abilities"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I can execute move_to, rotate, and start_patrol commands. What would you like me to do?\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "what commands do you know?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I understand movement, rotation, and patrol commands. Try saying 'move to 5, 7' or 'rotate 90 degrees clockwise'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "what are your functions?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"My main functions are navigation (move_to coordinates), rotation (turn in place), and patrolling (monitor areas). How can I help?\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "help me understand what you do"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I'm a robot assistant that can move around, turn, and patrol areas. Give me coordinates to move to, angles to rotate, or areas to patrol!\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "where are you?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I'm ready to move. Please specify coordinates where you'd like me to go.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "what's your status?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"All systems operational. Awaiting your next command.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "are you working?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Yes, I'm online and ready to execute robot commands.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "are you okay?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Yes, all systems are functioning normally. Ready for your commands!\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "what's your current position?"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I'm standing by for instructions. Where would you like me to move?\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "fly to the moon"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I can't fly, but I can move to ground coordinates. Try 'move to X, Y'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "cook dinner"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I'm a navigation robot, not a chef! I can move around and patrol areas.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "send an email"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I can't send emails. I specialize in movement and patrol commands.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "transform into a car"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I can't transform, but I can move to different locations. Where should I go?\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "play music"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I'm not equipped for entertainment. I can help with navigation, rotation, and patrol tasks though!\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move a little bit"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Please specify exact coordinates. For example: 'move to 5, 7'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go over there"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I need specific coordinates to move. Where exactly should I go?\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head towards the door"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Please provide X, Y coordinates for the door location.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn around"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Please specify angle and direction. For example: 'rotate 180 degrees clockwise'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"How many degrees should I rotate? Try 'rotate 90 degrees clockwise'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start patrolling"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Please specify which area: first_floor, bedrooms, or second_floor.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard something"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Which area should I patrol? Options are: first_floor, bedrooms, second_floor.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor the area"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Please specify which area to monitor: first_floor, bedrooms, or second_floor.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "do something"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I can move to coordinates, rotate, or patrol areas. What would you like me to do specifically?\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "help me"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I'm here to help with robot commands! I can move to coordinates, rotate, or patrol. What do you need?\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "sdkjfh skdjfh"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I didn't understand that. Try commands like 'move to X, Y' or 'rotate 90 degrees clockwise'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "asdfghjkl"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"That doesn't look like a command I recognize. Try 'move to coordinates' or 'start patrol'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "xyzabc123"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"I couldn't understand that input. Please use commands like 'move to 5, 7' or 'rotate 90 degrees'.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "thanks"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"You're welcome! Let me know if you need any more robot commands.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "thank you"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"My pleasure! I'm here whenever you need navigation or patrol assistance.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "goodbye"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Goodbye! I'll be here when you need robot commands again.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "see you later"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"See you later! Ready to help with robot tasks anytime.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "great job"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Thank you! Always happy to help with movement and patrol commands.\", \"command\": null, \"command_params\": null}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to 5\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 5, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 5.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to y coordinate 7\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 0, 7 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 7.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to 15\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 15, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 15.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to x=10\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 10, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 10.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to y=-5\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 0, -5 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": -5.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to x coordinate 8\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 8, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 8.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to -3.5\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates -3.5, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": -3.5, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to y position 12\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 0, 12 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 12.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to 22.1\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 22.1, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 22.1, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to y=-8.3\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 0, -8.3 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": -8.3}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to position 33\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 33, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 33.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to x coordinate -15\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates -15, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": -15.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to y value 25\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 0, 25 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 25.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to 0\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 0, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to y=18.7\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 0, 18.7 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 18.7}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to 45.6\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 45.6, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 45.6, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to x position 7\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 7, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 7.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to y coordinate -20\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 0, -20 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": -20.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to -12\n\nPrevious error: Invalid params for 'move_to': Missing required key 'y'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates -12, 0 (assuming y=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": -12.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to y=-30.5\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 0, -30.5 (assuming x=0 for missing coordinate)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": -30.5}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to five\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 5, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 5.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to x=seven, y=three\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 7, 3 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 7.0, \"y\": 3.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to ten, eight\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 10, 8 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 10.0, \"y\": 8.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to fifteen\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 15, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 15.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to x=twenty, y=thirty\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 20, 30 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 20.0, \"y\": 30.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to ninety\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 90, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 90.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to forty-five, sixty\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 45, 60 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 45.0, \"y\": 60.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to x=one, y=nine\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 1, 9 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 1.0, \"y\": 9.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to fifty\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 50, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 50.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to six, four\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 6, 4 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 6.0, \"y\": 4.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to x coordinate eleven\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 11, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 11.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to y coordinate fourteen\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 0, 14 (converted word number to numeric and assumed x=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 14.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to twelve, sixteen\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 12, 16 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 12.0, \"y\": 16.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to x=eighteen\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 18, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 18.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to y=nineteen\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 0, 19 (converted word number to numeric and assumed x=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 19.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to eighty, seventy\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 80, 70 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 80.0, \"y\": 70.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to thirteen\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 13, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 13.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to x=seventeen, y=twenty-one\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 17, 21 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 17.0, \"y\": 21.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to twenty-five\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 25, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 25.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to two, twenty-two\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 2, 22 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 2.0, \"y\": 22.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to y coordinate twenty-three\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 0, 23 (converted word number to numeric and assumed x=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 23.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to thirty-three, forty-four\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 33, 44 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 33.0, \"y\": 44.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to x position twenty-four\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 24, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 24.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to x=twenty-six, y=twenty-seven\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 26, 27 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 26.0, \"y\": 27.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to twenty-eight\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 28, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 28.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to y value twenty-nine\n\nPrevious error: Invalid params for 'move_to': Missing required key 'x'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 0, 29 (converted word number to numeric and assumed x=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 29.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to thirty-one, thirty-two\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 31, 32 (converted word numbers to numeric values)\", \"command\": \"move_to\", \"command_params\": {\"x\": 31.0, \"y\": 32.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to one hundred\n\nPrevious error: Invalid params for 'move_to': Wrong data type for 'x'. Input should be a valid number"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 100, 0 (converted word number to numeric and assumed y=0)\", \"command\": \"move_to\", \"command_params\": {\"x\": 100.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol the kitchen\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting patrol of first floor (mapping kitchen to first floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor the living room\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor (mapping living room to first floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard the hallway\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding first floor (mapping hallway to first floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol downstairs\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor (mapping downstairs to first floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor sleeping area\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms (mapping sleeping area to bedrooms)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard the master bedroom\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding bedrooms (mapping master bedroom to bedrooms area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol upper level\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling second floor (mapping upper level to second floor)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor level 2\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring second floor (mapping level 2 to second floor)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard the attic\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor (mapping attic to second floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol the basement\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor (mapping basement to first floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor the dining room\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor (mapping dining room to first floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard bedroom area\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding bedrooms (mapping bedroom area to bedrooms)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol ground level\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor (mapping ground level to first floor)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor the office\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring second floor (mapping office to second floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard the bathroom\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding first floor (mapping bathroom to first floor area)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start patrol\n\nPrevious error: Invalid params for 'start_patrol': Missing required key 'route_id'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting patrol of first floor (defaulting to first floor route)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin monitoring\n\nPrevious error: Invalid params for 'start_patrol': Missing required key 'route_id'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning monitoring of first floor (defaulting to first floor route)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start guarding\n\nPrevious error: Invalid params for 'start_patrol': Missing required key 'route_id'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting guard of first floor (defaulting to first floor route)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol first floor at super fast speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor at fast speed (mapping super fast to fast)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor bedrooms at very slow pace\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms at slow pace (mapping very slow to slow)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor at lightning speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor at fast speed (mapping lightning speed to fast)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol first floor at normal speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor at medium speed (mapping normal to medium)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor bedrooms at snail pace\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms at slow pace (mapping snail pace to slow)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor at turbo speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor at fast speed (mapping turbo speed to fast)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol first floor at regular pace\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor at medium pace (mapping regular pace to medium)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor bedrooms at warp speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms at fast speed (mapping warp speed to fast)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor at crawling speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor at slow speed (mapping crawling speed to slow)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol first floor at standard speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor at medium speed (mapping standard speed to medium)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor bedrooms at blazing speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms at fast speed (mapping blazing speed to fast)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor at turtle pace\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor at slow pace (mapping turtle pace to slow)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol first floor at average speed\n\nPrevious error: Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor at medium speed (mapping average speed to medium)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms zero times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms once (correcting zero to minimum count of 1)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor five point five times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 5 times (converted decimal to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 5}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor three times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor 3 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 3}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms ten times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms 10 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 10}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor twenty-five times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 25 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 25}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor fifty times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor 50 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 50}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms one hundred times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms 100 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 100}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor fifteen times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 15 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 15}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor seven times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor 7 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 7}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms eleven times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms 11 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 11}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor thirty times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 30 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 30}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor ninety-nine times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor 99 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 99}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms forty-two times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms 42 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 42}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor sixty times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 60 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 60}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor eighty times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor 80 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 80}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms twelve times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms 12 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 12}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor seventy times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 70 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 70}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard second floor twenty times\n\nPrevious error: Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor 20 times (converted word number to integer)\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 20}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 90 degrees\n\nPrevious error: Invalid params for 'rotate': Missing required key 'direction'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 90 degrees clockwise (assuming clockwise direction)\", \"command\": \"rotate\", \"command_params\": {\"angle\": 90.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn clockwise\n\nPrevious error: Invalid params for 'rotate': Missing required key 'angle'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 90 degrees clockwise (assuming 90 degree rotation)\", \"command\": \"rotate\", \"command_params\": {\"angle\": 90.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 45 degrees left\n\nPrevious error: Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 45 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 45.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin 180 degrees right\n\nPrevious error: Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 180 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 180.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn counter-clockwise\n\nPrevious error: Invalid params for 'rotate': Missing required key 'angle'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 90 degrees counter-clockwise (assuming 90 degree rotation)\", \"command\": \"rotate\", \"command_params\": {\"angle\": 90.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 30 degrees counterclockwise\n\nPrevious error: Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 30 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 30.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin 270 degrees\n\nPrevious error: Invalid params for 'rotate': Missing required key 'direction'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 270 degrees clockwise (assuming clockwise direction)\", \"command\": \"rotate\", \"command_params\": {\"angle\": 270.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn 60 degrees anti-clockwise\n\nPrevious error: Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 60 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 60.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate left\n\nPrevious error: Invalid params for 'rotate': Missing required key 'angle'"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 90 degrees counter-clockwise (assuming 90 degrees for left turn)\", \"command\": \"rotate\", \"command_params\": {\"angle\": 90.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to coordinates 5, 7"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 5, 7\", \"command\": \"move_to\", \"command_params\": {\"x\": 5.0, \"y\": 7.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to position 10.5, -3.2"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to position 10.5, -3.2\", \"command\": \"move_to\", \"command_params\": {\"x\": 10.5, \"y\": -3.2}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to point (0, 15)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to point 0, 15\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 15.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to location x=25, y=-8"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to location 25, -8\", \"command\": \"move_to\", \"command_params\": {\"x\": 25.0, \"y\": -8.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to 12.3, 45.7"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 12.3, 45.7\", \"command\": \"move_to\", \"command_params\": {\"x\": 12.3, \"y\": 45.7}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "Move robot to coordinates 8, -2"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving robot to coordinates 8, -2\", \"command\": \"move_to\", \"command_params\": {\"x\": 8.0, \"y\": -2.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to x coordinate 15 and y coordinate 22"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 15, 22\", \"command\": \"move_to\", \"command_params\": {\"x\": 15.0, \"y\": 22.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to -5.5, 10.8"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates -5.5, 10.8\", \"command\": \"move_to\", \"command_params\": {\"x\": -5.5, \"y\": 10.8}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to position 0, 0"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to origin position 0, 0\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 0.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head over to 100, -50"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 100, -50\", \"command\": \"move_to\", \"command_params\": {\"x\": 100.0, \"y\": -50.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to location (7.2, 3.8)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to location 7.2, 3.8\", \"command\": \"move_to\", \"command_params\": {\"x\": 7.2, \"y\": 3.8}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to point x=33, y=44"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to point 33, 44\", \"command\": \"move_to\", \"command_params\": {\"x\": 33.0, \"y\": 44.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to -12.5, -7.3"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates -12.5, -7.3\", \"command\": \"move_to\", \"command_params\": {\"x\": -12.5, \"y\": -7.3}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate robot to 45, 67"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating robot to coordinates 45, 67\", \"command\": \"move_to\", \"command_params\": {\"x\": 45.0, \"y\": 67.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to x=9 y=11"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 9, 11\", \"command\": \"move_to\", \"command_params\": {\"x\": 9.0, \"y\": 11.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to coordinates 1.1, 2.2"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 1.1, 2.2\", \"command\": \"move_to\", \"command_params\": {\"x\": 1.1, \"y\": 2.2}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to position (-3, 8)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to position -3, 8\", \"command\": \"move_to\", \"command_params\": {\"x\": -3.0, \"y\": 8.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to location 50.5, 25.25"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to location 50.5, 25.25\", \"command\": \"move_to\", \"command_params\": {\"x\": 50.5, \"y\": 25.25}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to the point 14, -6"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to point 14, -6\", \"command\": \"move_to\", \"command_params\": {\"x\": 14.0, \"y\": -6.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to x coordinate 20 and y coordinate -15"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates 20, -15\", \"command\": \"move_to\", \"command_params\": {\"x\": 20.0, \"y\": -15.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to 6.7, 8.9"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 6.7, 8.9\", \"command\": \"move_to\", \"command_params\": {\"x\": 6.7, \"y\": 8.9}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to coordinates (22, 33)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 22, 33\", \"command\": \"move_to\", \"command_params\": {\"x\": 22.0, \"y\": 33.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to position x=0, y=5"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to position 0, 5\", \"command\": \"move_to\", \"command_params\": {\"x\": 0.0, \"y\": 5.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to point -8, 12"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to point -8, 12\", \"command\": \"move_to\", \"command_params\": {\"x\": -8.0, \"y\": 12.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move robot to 35.5, -10.2"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving robot to coordinates 35.5, -10.2\", \"command\": \"move_to\", \"command_params\": {\"x\": 35.5, \"y\": -10.2}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to location (4, -9)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to location 4, -9\", \"command\": \"move_to\", \"command_params\": {\"x\": 4.0, \"y\": -9.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to x=13.3 and y=-4.4"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 13.3, -4.4\", \"command\": \"move_to\", \"command_params\": {\"x\": 13.3, \"y\": -4.4}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head over to coordinates 28, 19"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates 28, 19\", \"command\": \"move_to\", \"command_params\": {\"x\": 28.0, \"y\": 19.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to position -25.7, 30.1"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to position -25.7, 30.1\", \"command\": \"move_to\", \"command_params\": {\"x\": -25.7, \"y\": 30.1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to 17, 23"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 17, 23\", \"command\": \"move_to\", \"command_params\": {\"x\": 17.0, \"y\": 23.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to point x=42 y=37"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to point 42, 37\", \"command\": \"move_to\", \"command_params\": {\"x\": 42.0, \"y\": 37.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to -1.5, -2.5"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to coordinates -1.5, -2.5\", \"command\": \"move_to\", \"command_params\": {\"x\": -1.5, \"y\": -2.5}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to location 55, 44"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to location 55, 44\", \"command\": \"move_to\", \"command_params\": {\"x\": 55.0, \"y\": 44.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to coordinates (18.8, 21.3)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 18.8, 21.3\", \"command\": \"move_to\", \"command_params\": {\"x\": 18.8, \"y\": 21.3}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to position x=-7, y=16"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to position -7, 16\", \"command\": \"move_to\", \"command_params\": {\"x\": -7.0, \"y\": 16.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to point 39.9, -11.1"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to point 39.9, -11.1\", \"command\": \"move_to\", \"command_params\": {\"x\": 39.9, \"y\": -11.1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate robot to location 2, 4"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating robot to location 2, 4\", \"command\": \"move_to\", \"command_params\": {\"x\": 2.0, \"y\": 4.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to coordinates -30, 40"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates -30, 40\", \"command\": \"move_to\", \"command_params\": {\"x\": -30.0, \"y\": 40.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to x=26.6, y=37.7"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 26.6, 37.7\", \"command\": \"move_to\", \"command_params\": {\"x\": 26.6, \"y\": 37.7}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to 3.3, 6.6"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 3.3, 6.6\", \"command\": \"move_to\", \"command_params\": {\"x\": 3.3, \"y\": 6.6}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to position (11, -13)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to position 11, -13\", \"command\": \"move_to\", \"command_params\": {\"x\": 11.0, \"y\": -13.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to point x=48, y=52"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to point 48, 52\", \"command\": \"move_to\", \"command_params\": {\"x\": 48.0, \"y\": 52.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head over to -15.5, 20.2"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to coordinates -15.5, 20.2\", \"command\": \"move_to\", \"command_params\": {\"x\": -15.5, \"y\": 20.2}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move robot to coordinates 60, -45"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving robot to coordinates 60, -45\", \"command\": \"move_to\", \"command_params\": {\"x\": 60.0, \"y\": -45.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to location x=-22 y=33"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to location -22, 33\", \"command\": \"move_to\", \"command_params\": {\"x\": -22.0, \"y\": 33.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "travel to coordinates (8.5, -12.8)"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Traveling to coordinates 8.5, -12.8\", \"command\": \"move_to\", \"command_params\": {\"x\": 8.5, \"y\": -12.8}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "navigate to position 41, 29"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Navigating to position 41, 29\", \"command\": \"move_to\", \"command_params\": {\"x\": 41.0, \"y\": 29.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "head to point -5, -10"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Heading to point -5, -10\", \"command\": \"move_to\", \"command_params\": {\"x\": -5.0, \"y\": -10.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "move to 70.7, 80.8"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Moving to coordinates 70.7, 80.8\", \"command\": \"move_to\", \"command_params\": {\"x\": 70.7, \"y\": 80.8}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "go to x coordinate 36 and y coordinate -18"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Going to coordinates 36, -18\", \"command\": \"move_to\", \"command_params\": {\"x\": 36.0, \"y\": -18.0}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start patrolling the first floor"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting patrol of first floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms for 3 rounds at fast speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms for 3 rounds at fast speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"fast\", \"repeat_count\": 3}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor second floor continuously"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring second floor continuously\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard the first floor 5 times at slow speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding first floor 5 times at slow speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"slow\", \"repeat_count\": 5}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin watching bedrooms area"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning watch of bedrooms area\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol first floor indefinitely"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor indefinitely\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start monitoring level 1 quickly"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting fast patrol of first floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol upstairs for 2 cycles"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling second floor for 2 cycles\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 2}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard sleeping area slowly"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding bedrooms at slow speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin rapid patrol of ground floor"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning rapid patrol of first floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor bedrooms forever"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms continuously\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start patrolling level 2 carefully"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting careful patrol of second floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedroom area 4 times"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms 4 times\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 4}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "watch first floor continuously at medium speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Watching first floor continuously at medium speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin guarding upstairs quickly for 3 rounds"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning quick guard of second floor for 3 rounds\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"fast\", \"repeat_count\": 3}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start slow patrol of bedroom area"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting slow patrol of bedrooms\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor ground floor 10 times"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 10 times\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 10}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol second floor rapidly"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling second floor rapidly\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard sleeping area indefinitely"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding bedrooms indefinitely\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin watching level 1 slowly for 6 cycles"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning slow watch of first floor for 6 cycles\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"slow\", \"repeat_count\": 6}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start fast monitoring of upstairs"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting fast monitoring of second floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedrooms once"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms once\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor forever at slow speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor continuously at slow speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"slow\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin patrolling upper level 7 times"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning patrol of second floor 7 times\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 7}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard bedroom area quickly"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding bedrooms quickly\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start careful watching of ground floor"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting careful watch of first floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol level 2 for 8 rounds at medium speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling second floor for 8 rounds at medium speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": 8}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor sleeping area continuously at fast pace"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms continuously at fast pace\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"fast\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin slow guard of first floor for 9 cycles"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning slow guard of first floor for 9 cycles\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"slow\", \"repeat_count\": 9}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start patrolling upstairs indefinitely at rapid speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting continuous rapid patrol of second floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"fast\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "watch bedroom area 5 times carefully"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Watching bedrooms 5 times carefully\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"slow\", \"repeat_count\": 5}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol ground floor twice"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling first floor twice\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"medium\", \"repeat_count\": 2}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin monitoring level 2 fast"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning fast monitoring of second floor\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"fast\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard sleeping area forever slowly"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding bedrooms continuously at slow speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"slow\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start quick patrol of first floor 12 times"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting quick patrol of first floor 12 times\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": 12}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor upper level continuously"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring second floor continuously\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol bedroom area slowly for 3 rounds"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling bedrooms slowly for 3 rounds\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"slow\", \"repeat_count\": 3}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin watching ground floor rapidly 15 times"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning rapid watch of first floor 15 times\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": 15}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard level 2 keep going"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding second floor continuously\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"medium\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start medium speed patrol of sleeping area"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting medium speed patrol of bedrooms\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor first floor 20 times quickly"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring first floor 20 times quickly\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": 20}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol upstairs carefully 4 cycles"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling second floor carefully for 4 cycles\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"slow\", \"repeat_count\": 4}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin guarding bedroom area at medium pace"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning guard of bedrooms at medium pace\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "watch ground floor forever fast"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Watching first floor continuously at fast speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "start patrolling level 1 once at slow speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Starting slow patrol of first floor once\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"slow\", \"repeat_count\": 1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "monitor sleeping area 6 rounds at fast pace"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Monitoring bedrooms for 6 rounds at fast pace\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"fast\", \"repeat_count\": 6}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "patrol upper level slowly indefinitely"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Patrolling second floor slowly and continuously\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"second_floor\", \"speed\": \"slow\", \"repeat_count\": -1}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "begin rapid monitoring of first floor 11 times"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Beginning rapid monitoring of first floor 11 times\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"first_floor\", \"speed\": \"fast\", \"repeat_count\": 11}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "guard bedroom area twice at medium speed"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Guarding bedrooms twice at medium speed\", \"command\": \"start_patrol\", \"command_params\": {\"route_id\": \"bedrooms\", \"speed\": \"medium\", \"repeat_count\": 2}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 90 degrees clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 90 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 90.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn 45 degrees counter-clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 45 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 45.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin 180 degrees clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 180 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 180.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate left by 30 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 30 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 30.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn right 60 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 60 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 60.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "make a 270 degree clockwise rotation"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Making a 270 degree clockwise rotation\", \"command\": \"rotate\", \"command_params\": {\"angle\": 270.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin 120 degrees counter-clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 120 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 120.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn 15 degrees to the right"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 15 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 15.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 225 degrees counter-clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 225 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 225.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin left 75 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 75 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 75.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn 300 degrees clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 300 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 300.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 22.5 degrees counter-clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 22.5 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 22.5, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin right by 135 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 135 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 135.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn 360 degrees clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 360 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 360.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate to the left 90 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 90 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 90.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin 67.5 degrees counter-clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 67.5 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 67.5, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn right 180 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 180 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 180.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 450 degrees clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 450 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 450.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin left by 12 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 12 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 12.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn 315 degrees counter-clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 315 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 315.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate right 37.8 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 37.8 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 37.8, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin 210 degrees clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 210 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 210.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "turn to the left 150 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Turning 150 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 150.0, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "rotate 5.5 degrees counter-clockwise"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Rotating 5.5 degrees counter-clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 5.5, \"direction\": \"counter-clockwise\"}}"
+            }
+        ]
+    },
+    {
+        "conversations": [
+            {
+                "role": "system",
+                "content": "You are SHATO robot assistant. Extract commands from user input and return JSON with response, command, and command_params\nfields."
+            },
+            {
+                "role": "user",
+                "content": "spin right 240 degrees"
+            },
+            {
+                "role": "assistant",
+                "content": "{\"response\": \"Spinning 240 degrees clockwise\", \"command\": \"rotate\", \"command_params\": {\"angle\": 240.0, \"direction\": \"clockwise\"}}"
+            }
+        ]
+    }
+]

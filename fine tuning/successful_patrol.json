@@ -1,0 +1,492 @@
+[
+  {
+    "user_input": "start patrolling the first floor",
+    "expected_output": {
+      "response": "Starting patrol of first floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms for 3 rounds at fast speed",
+    "expected_output": {
+      "response": "Patrolling bedrooms for 3 rounds at fast speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "fast", "repeat_count": 3}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second floor continuously",
+    "expected_output": {
+      "response": "Monitoring second floor continuously",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first floor 5 times at slow speed",
+    "expected_output": {
+      "response": "Guarding first floor 5 times at slow speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "slow", "repeat_count": 5}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin watching bedrooms area",
+    "expected_output": {
+      "response": "Beginning watch of bedrooms area",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first floor indefinitely",
+    "expected_output": {
+      "response": "Patrolling first floor indefinitely",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start monitoring level 1 quickly",
+    "expected_output": {
+      "response": "Starting fast patrol of first floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol upstairs for 2 cycles",
+    "expected_output": {
+      "response": "Patrolling second floor for 2 cycles",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 2}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard sleeping area slowly",
+    "expected_output": {
+      "response": "Guarding bedrooms at slow speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin rapid patrol of ground floor",
+    "expected_output": {
+      "response": "Beginning rapid patrol of first floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms forever",
+    "expected_output": {
+      "response": "Monitoring bedrooms continuously",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling level 2 carefully",
+    "expected_output": {
+      "response": "Starting careful patrol of second floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedroom area 4 times",
+    "expected_output": {
+      "response": "Patrolling bedrooms 4 times",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 4}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "watch first floor continuously at medium speed",
+    "expected_output": {
+      "response": "Watching first floor continuously at medium speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin guarding upstairs quickly for 3 rounds",
+    "expected_output": {
+      "response": "Beginning quick guard of second floor for 3 rounds",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "fast", "repeat_count": 3}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start slow patrol of bedroom area",
+    "expected_output": {
+      "response": "Starting slow patrol of bedrooms",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor ground floor 10 times",
+    "expected_output": {
+      "response": "Monitoring first floor 10 times",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 10}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second floor rapidly",
+    "expected_output": {
+      "response": "Patrolling second floor rapidly",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard sleeping area indefinitely",
+    "expected_output": {
+      "response": "Guarding bedrooms indefinitely",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin watching level 1 slowly for 6 cycles",
+    "expected_output": {
+      "response": "Beginning slow watch of first floor for 6 cycles",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "slow", "repeat_count": 6}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start fast monitoring of upstairs",
+    "expected_output": {
+      "response": "Starting fast monitoring of second floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms once",
+    "expected_output": {
+      "response": "Patrolling bedrooms once",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first floor forever at slow speed",
+    "expected_output": {
+      "response": "Monitoring first floor continuously at slow speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "slow", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin patrolling upper level 7 times",
+    "expected_output": {
+      "response": "Beginning patrol of second floor 7 times",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 7}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard bedroom area quickly",
+    "expected_output": {
+      "response": "Guarding bedrooms quickly",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start careful watching of ground floor",
+    "expected_output": {
+      "response": "Starting careful watch of first floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol level 2 for 8 rounds at medium speed",
+    "expected_output": {
+      "response": "Patrolling second floor for 8 rounds at medium speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 8}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor sleeping area continuously at fast pace",
+    "expected_output": {
+      "response": "Monitoring bedrooms continuously at fast pace",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "fast", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin slow guard of first floor for 9 cycles",
+    "expected_output": {
+      "response": "Beginning slow guard of first floor for 9 cycles",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "slow", "repeat_count": 9}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling upstairs indefinitely at rapid speed",
+    "expected_output": {
+      "response": "Starting continuous rapid patrol of second floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "fast", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "watch bedroom area 5 times carefully",
+    "expected_output": {
+      "response": "Watching bedrooms 5 times carefully",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "slow", "repeat_count": 5}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol ground floor twice",
+    "expected_output": {
+      "response": "Patrolling first floor twice",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 2}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring level 2 fast",
+    "expected_output": {
+      "response": "Beginning fast monitoring of second floor",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard sleeping area forever slowly",
+    "expected_output": {
+      "response": "Guarding bedrooms continuously at slow speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "slow", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start quick patrol of first floor 12 times",
+    "expected_output": {
+      "response": "Starting quick patrol of first floor 12 times",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": 12}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor upper level continuously",
+    "expected_output": {
+      "response": "Monitoring second floor continuously",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedroom area slowly for 3 rounds",
+    "expected_output": {
+      "response": "Patrolling bedrooms slowly for 3 rounds",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "slow", "repeat_count": 3}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin watching ground floor rapidly 15 times",
+    "expected_output": {
+      "response": "Beginning rapid watch of first floor 15 times",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": 15}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard level 2 keep going",
+    "expected_output": {
+      "response": "Guarding second floor continuously",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start medium speed patrol of sleeping area",
+    "expected_output": {
+      "response": "Starting medium speed patrol of bedrooms",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first floor 20 times quickly",
+    "expected_output": {
+      "response": "Monitoring first floor 20 times quickly",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": 20}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol upstairs carefully 4 cycles",
+    "expected_output": {
+      "response": "Patrolling second floor carefully for 4 cycles",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "slow", "repeat_count": 4}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin guarding bedroom area at medium pace",
+    "expected_output": {
+      "response": "Beginning guard of bedrooms at medium pace",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "watch ground floor forever fast",
+    "expected_output": {
+      "response": "Watching first floor continuously at fast speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling level 1 once at slow speed",
+    "expected_output": {
+      "response": "Starting slow patrol of first floor once",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor sleeping area 6 rounds at fast pace",
+    "expected_output": {
+      "response": "Monitoring bedrooms for 6 rounds at fast pace",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "fast", "repeat_count": 6}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol upper level slowly indefinitely",
+    "expected_output": {
+      "response": "Patrolling second floor slowly and continuously",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "slow", "repeat_count": -1}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin rapid monitoring of first floor 11 times",
+    "expected_output": {
+      "response": "Beginning rapid monitoring of first floor 11 times",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": 11}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard bedroom area twice at medium speed",
+    "expected_output": {
+      "response": "Guarding bedrooms twice at medium speed",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 2}
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  }
+]

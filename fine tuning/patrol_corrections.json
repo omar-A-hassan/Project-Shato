@@ -1,0 +1,541 @@
+[
+  {
+    "user_input": "patrol the kitchen",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Starting patrol of first floor (mapping kitchen to first floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor the living room",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Monitoring first floor (mapping living room to first floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard the hallway",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Guarding first floor (mapping hallway to first floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol downstairs",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Patrolling first floor (mapping downstairs to first floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor sleeping area",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Monitoring bedrooms (mapping sleeping area to bedrooms)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard the master bedroom",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Guarding bedrooms (mapping master bedroom to bedrooms area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol upper level",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Patrolling second floor (mapping upper level to second floor)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor level 2",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Monitoring second floor (mapping level 2 to second floor)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard the attic",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Guarding second floor (mapping attic to second floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol the basement",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Patrolling first floor (mapping basement to first floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor the dining room",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Monitoring first floor (mapping dining room to first floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard bedroom area",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Guarding bedrooms (mapping bedroom area to bedrooms)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol ground level",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Patrolling first floor (mapping ground level to first floor)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor the office",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Monitoring second floor (mapping office to second floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard the bathroom",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'route_id'. Expected one of: ['first_floor', 'bedrooms', 'second_floor']",
+    "expected_output": {
+      "response": "Guarding first floor (mapping bathroom to first floor area)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "start patrol",
+    "retry_context": "Invalid params for 'start_patrol': Missing required key 'route_id'",
+    "expected_output": {
+      "response": "Starting patrol of first floor (defaulting to first floor route)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "begin monitoring",
+    "retry_context": "Invalid params for 'start_patrol': Missing required key 'route_id'",
+    "expected_output": {
+      "response": "Beginning monitoring of first floor (defaulting to first floor route)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "start guarding",
+    "retry_context": "Invalid params for 'start_patrol': Missing required key 'route_id'",
+    "expected_output": {
+      "response": "Starting guard of first floor (defaulting to first floor route)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol first floor at super fast speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Patrolling first floor at fast speed (mapping super fast to fast)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor bedrooms at very slow pace",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Monitoring bedrooms at slow pace (mapping very slow to slow)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor at lightning speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Guarding second floor at fast speed (mapping lightning speed to fast)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol first floor at normal speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Patrolling first floor at medium speed (mapping normal to medium)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor bedrooms at snail pace",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Monitoring bedrooms at slow pace (mapping snail pace to slow)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor at turbo speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Guarding second floor at fast speed (mapping turbo speed to fast)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol first floor at regular pace",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Patrolling first floor at medium pace (mapping regular pace to medium)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor bedrooms at warp speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Monitoring bedrooms at fast speed (mapping warp speed to fast)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor at crawling speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Guarding second floor at slow speed (mapping crawling speed to slow)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol first floor at standard speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Patrolling first floor at medium speed (mapping standard speed to medium)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor bedrooms at blazing speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Monitoring bedrooms at fast speed (mapping blazing speed to fast)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "fast", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor at turtle pace",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Guarding second floor at slow pace (mapping turtle pace to slow)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "slow", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol first floor at average speed",
+    "retry_context": "Invalid params for 'start_patrol': Invalid value for 'speed'. Expected one of: ['slow', 'medium', 'fast']",
+    "expected_output": {
+      "response": "Patrolling first floor at medium speed (mapping average speed to medium)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol bedrooms zero times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Patrolling bedrooms once (correcting zero to minimum count of 1)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 1}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor first floor five point five times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Monitoring first floor 5 times (converted decimal to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 5}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor three times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Guarding second floor 3 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 3}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol bedrooms ten times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Patrolling bedrooms 10 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 10}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor first floor twenty-five times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Monitoring first floor 25 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 25}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor fifty times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Guarding second floor 50 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 50}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol bedrooms one hundred times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Patrolling bedrooms 100 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 100}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor first floor fifteen times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Monitoring first floor 15 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 15}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor seven times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Guarding second floor 7 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 7}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol bedrooms eleven times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Patrolling bedrooms 11 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 11}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor first floor thirty times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Monitoring first floor 30 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 30}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor ninety-nine times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Guarding second floor 99 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 99}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol bedrooms forty-two times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Patrolling bedrooms 42 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 42}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor first floor sixty times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Monitoring first floor 60 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 60}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor eighty times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Guarding second floor 80 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 80}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "patrol bedrooms twelve times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Patrolling bedrooms 12 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "bedrooms", "speed": "medium", "repeat_count": 12}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "monitor first floor seventy times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Monitoring first floor 70 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "first_floor", "speed": "medium", "repeat_count": 70}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "guard second floor twenty times",
+    "retry_context": "Invalid params for 'start_patrol': Wrong data type for 'repeat_count'. Input should be a valid integer",
+    "expected_output": {
+      "response": "Guarding second floor 20 times (converted word number to integer)",
+      "command": "start_patrol",
+      "command_params": {"route_id": "second_floor", "speed": "medium", "repeat_count": 20}
+    },
+    "category": "start_patrol",
+    "type": "self_correction"
+  }
+]

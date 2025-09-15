@@ -1,0 +1,502 @@
+[
+  {
+    "user_input": "move to coordinates 5, 7",
+    "expected_output": {
+      "response": "Moving to coordinates 5, 7",
+      "command": "move_to",
+      "command_params": {"x": 5.0, "y": 7.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to position 10.5, -3.2",
+    "expected_output": {
+      "response": "Navigating to position 10.5, -3.2",
+      "command": "move_to",
+      "command_params": {"x": 10.5, "y": -3.2}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to point (0, 15)",
+    "expected_output": {
+      "response": "Going to point 0, 15",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 15.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head to location x=25, y=-8",
+    "expected_output": {
+      "response": "Heading to location 25, -8",
+      "command": "move_to",
+      "command_params": {"x": 25.0, "y": -8.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to 12.3, 45.7",
+    "expected_output": {
+      "response": "Traveling to coordinates 12.3, 45.7",
+      "command": "move_to",
+      "command_params": {"x": 12.3, "y": 45.7}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates 8, -2",
+    "expected_output": {
+      "response": "Moving robot to coordinates 8, -2",
+      "command": "move_to",
+      "command_params": {"x": 8.0, "y": -2.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to x coordinate 15 and y coordinate 22",
+    "expected_output": {
+      "response": "Going to coordinates 15, 22",
+      "command": "move_to",
+      "command_params": {"x": 15.0, "y": 22.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to -5.5, 10.8",
+    "expected_output": {
+      "response": "Navigating to coordinates -5.5, 10.8",
+      "command": "move_to",
+      "command_params": {"x": -5.5, "y": 10.8}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to position 0, 0",
+    "expected_output": {
+      "response": "Moving to origin position 0, 0",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 0.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to 100, -50",
+    "expected_output": {
+      "response": "Heading to coordinates 100, -50",
+      "command": "move_to",
+      "command_params": {"x": 100.0, "y": -50.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to location (7.2, 3.8)",
+    "expected_output": {
+      "response": "Going to location 7.2, 3.8",
+      "command": "move_to",
+      "command_params": {"x": 7.2, "y": 3.8}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to point x=33, y=44",
+    "expected_output": {
+      "response": "Traveling to point 33, 44",
+      "command": "move_to",
+      "command_params": {"x": 33.0, "y": 44.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to -12.5, -7.3",
+    "expected_output": {
+      "response": "Moving to coordinates -12.5, -7.3",
+      "command": "move_to",
+      "command_params": {"x": -12.5, "y": -7.3}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate robot to 45, 67",
+    "expected_output": {
+      "response": "Navigating robot to coordinates 45, 67",
+      "command": "move_to",
+      "command_params": {"x": 45.0, "y": 67.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to x=9 y=11",
+    "expected_output": {
+      "response": "Going to coordinates 9, 11",
+      "command": "move_to",
+      "command_params": {"x": 9.0, "y": 11.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 1.1, 2.2",
+    "expected_output": {
+      "response": "Moving to coordinates 1.1, 2.2",
+      "command": "move_to",
+      "command_params": {"x": 1.1, "y": 2.2}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head to position (-3, 8)",
+    "expected_output": {
+      "response": "Heading to position -3, 8",
+      "command": "move_to",
+      "command_params": {"x": -3.0, "y": 8.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to location 50.5, 25.25",
+    "expected_output": {
+      "response": "Traveling to location 50.5, 25.25",
+      "command": "move_to",
+      "command_params": {"x": 50.5, "y": 25.25}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to the point 14, -6",
+    "expected_output": {
+      "response": "Going to point 14, -6",
+      "command": "move_to",
+      "command_params": {"x": 14.0, "y": -6.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to x coordinate 20 and y coordinate -15",
+    "expected_output": {
+      "response": "Navigating to coordinates 20, -15",
+      "command": "move_to",
+      "command_params": {"x": 20.0, "y": -15.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to 6.7, 8.9",
+    "expected_output": {
+      "response": "Moving to coordinates 6.7, 8.9",
+      "command": "move_to",
+      "command_params": {"x": 6.7, "y": 8.9}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head to coordinates (22, 33)",
+    "expected_output": {
+      "response": "Heading to coordinates 22, 33",
+      "command": "move_to",
+      "command_params": {"x": 22.0, "y": 33.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position x=0, y=5",
+    "expected_output": {
+      "response": "Going to position 0, 5",
+      "command": "move_to",
+      "command_params": {"x": 0.0, "y": 5.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to point -8, 12",
+    "expected_output": {
+      "response": "Traveling to point -8, 12",
+      "command": "move_to",
+      "command_params": {"x": -8.0, "y": 12.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move robot to 35.5, -10.2",
+    "expected_output": {
+      "response": "Moving robot to coordinates 35.5, -10.2",
+      "command": "move_to",
+      "command_params": {"x": 35.5, "y": -10.2}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to location (4, -9)",
+    "expected_output": {
+      "response": "Navigating to location 4, -9",
+      "command": "move_to",
+      "command_params": {"x": 4.0, "y": -9.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to x=13.3 and y=-4.4",
+    "expected_output": {
+      "response": "Going to coordinates 13.3, -4.4",
+      "command": "move_to",
+      "command_params": {"x": 13.3, "y": -4.4}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to coordinates 28, 19",
+    "expected_output": {
+      "response": "Heading to coordinates 28, 19",
+      "command": "move_to",
+      "command_params": {"x": 28.0, "y": 19.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to position -25.7, 30.1",
+    "expected_output": {
+      "response": "Moving to position -25.7, 30.1",
+      "command": "move_to",
+      "command_params": {"x": -25.7, "y": 30.1}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to 17, 23",
+    "expected_output": {
+      "response": "Traveling to coordinates 17, 23",
+      "command": "move_to",
+      "command_params": {"x": 17.0, "y": 23.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to point x=42 y=37",
+    "expected_output": {
+      "response": "Going to point 42, 37",
+      "command": "move_to",
+      "command_params": {"x": 42.0, "y": 37.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to -1.5, -2.5",
+    "expected_output": {
+      "response": "Navigating to coordinates -1.5, -2.5",
+      "command": "move_to",
+      "command_params": {"x": -1.5, "y": -2.5}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head to location 55, 44",
+    "expected_output": {
+      "response": "Heading to location 55, 44",
+      "command": "move_to",
+      "command_params": {"x": 55.0, "y": 44.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates (18.8, 21.3)",
+    "expected_output": {
+      "response": "Moving to coordinates 18.8, 21.3",
+      "command": "move_to",
+      "command_params": {"x": 18.8, "y": 21.3}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position x=-7, y=16",
+    "expected_output": {
+      "response": "Going to position -7, 16",
+      "command": "move_to",
+      "command_params": {"x": -7.0, "y": 16.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to point 39.9, -11.1",
+    "expected_output": {
+      "response": "Traveling to point 39.9, -11.1",
+      "command": "move_to",
+      "command_params": {"x": 39.9, "y": -11.1}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate robot to location 2, 4",
+    "expected_output": {
+      "response": "Navigating robot to location 2, 4",
+      "command": "move_to",
+      "command_params": {"x": 2.0, "y": 4.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head to coordinates -30, 40",
+    "expected_output": {
+      "response": "Heading to coordinates -30, 40",
+      "command": "move_to",
+      "command_params": {"x": -30.0, "y": 40.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x=26.6, y=37.7",
+    "expected_output": {
+      "response": "Moving to coordinates 26.6, 37.7",
+      "command": "move_to",
+      "command_params": {"x": 26.6, "y": 37.7}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to 3.3, 6.6",
+    "expected_output": {
+      "response": "Going to coordinates 3.3, 6.6",
+      "command": "move_to",
+      "command_params": {"x": 3.3, "y": 6.6}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to position (11, -13)",
+    "expected_output": {
+      "response": "Traveling to position 11, -13",
+      "command": "move_to",
+      "command_params": {"x": 11.0, "y": -13.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point x=48, y=52",
+    "expected_output": {
+      "response": "Navigating to point 48, 52",
+      "command": "move_to",
+      "command_params": {"x": 48.0, "y": 52.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to -15.5, 20.2",
+    "expected_output": {
+      "response": "Heading to coordinates -15.5, 20.2",
+      "command": "move_to",
+      "command_params": {"x": -15.5, "y": 20.2}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move robot to coordinates 60, -45",
+    "expected_output": {
+      "response": "Moving robot to coordinates 60, -45",
+      "command": "move_to",
+      "command_params": {"x": 60.0, "y": -45.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to location x=-22 y=33",
+    "expected_output": {
+      "response": "Going to location -22, 33",
+      "command": "move_to",
+      "command_params": {"x": -22.0, "y": 33.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to coordinates (8.5, -12.8)",
+    "expected_output": {
+      "response": "Traveling to coordinates 8.5, -12.8",
+      "command": "move_to",
+      "command_params": {"x": 8.5, "y": -12.8}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to position 41, 29",
+    "expected_output": {
+      "response": "Navigating to position 41, 29",
+      "command": "move_to",
+      "command_params": {"x": 41.0, "y": 29.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head to point -5, -10",
+    "expected_output": {
+      "response": "Heading to point -5, -10",
+      "command": "move_to",
+      "command_params": {"x": -5.0, "y": -10.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to 70.7, 80.8",
+    "expected_output": {
+      "response": "Moving to coordinates 70.7, 80.8",
+      "command": "move_to",
+      "command_params": {"x": 70.7, "y": 80.8}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to x coordinate 36 and y coordinate -18",
+    "expected_output": {
+      "response": "Going to coordinates 36, -18",
+      "command": "move_to",
+      "command_params": {"x": 36.0, "y": -18.0}
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  }
+]

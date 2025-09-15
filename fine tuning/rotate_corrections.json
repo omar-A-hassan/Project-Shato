@@ -1,0 +1,101 @@
+[
+  {
+    "user_input": "rotate 90 degrees",
+    "retry_context": "Invalid params for 'rotate': Missing required key 'direction'",
+    "expected_output": {
+      "response": "Rotating 90 degrees clockwise (assuming clockwise direction)",
+      "command": "rotate",
+      "command_params": {"angle": 90.0, "direction": "clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "turn clockwise",
+    "retry_context": "Invalid params for 'rotate': Missing required key 'angle'",
+    "expected_output": {
+      "response": "Turning 90 degrees clockwise (assuming 90 degree rotation)",
+      "command": "rotate",
+      "command_params": {"angle": 90.0, "direction": "clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "rotate 45 degrees left",
+    "retry_context": "Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']",
+    "expected_output": {
+      "response": "Rotating 45 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {"angle": 45.0, "direction": "counter-clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "spin 180 degrees right",
+    "retry_context": "Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']",
+    "expected_output": {
+      "response": "Spinning 180 degrees clockwise",
+      "command": "rotate",
+      "command_params": {"angle": 180.0, "direction": "clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "turn counter-clockwise",
+    "retry_context": "Invalid params for 'rotate': Missing required key 'angle'",
+    "expected_output": {
+      "response": "Turning 90 degrees counter-clockwise (assuming 90 degree rotation)",
+      "command": "rotate",
+      "command_params": {"angle": 90.0, "direction": "counter-clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "rotate 30 degrees counterclockwise",
+    "retry_context": "Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']",
+    "expected_output": {
+      "response": "Rotating 30 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {"angle": 30.0, "direction": "counter-clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "spin 270 degrees",
+    "retry_context": "Invalid params for 'rotate': Missing required key 'direction'",
+    "expected_output": {
+      "response": "Spinning 270 degrees clockwise (assuming clockwise direction)",
+      "command": "rotate",
+      "command_params": {"angle": 270.0, "direction": "clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "turn 60 degrees anti-clockwise",
+    "retry_context": "Invalid params for 'rotate': Invalid value for 'direction'. Expected one of: ['clockwise', 'counter-clockwise']",
+    "expected_output": {
+      "response": "Turning 60 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {"angle": 60.0, "direction": "counter-clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  },
+  {
+    "user_input": "rotate left",
+    "retry_context": "Invalid params for 'rotate': Missing required key 'angle'",
+    "expected_output": {
+      "response": "Rotating 90 degrees counter-clockwise (assuming 90 degrees for left turn)",
+      "command": "rotate",
+      "command_params": {"angle": 90.0, "direction": "counter-clockwise"}
+    },
+    "category": "rotate",
+    "type": "self_correction"
+  }
+]
