@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  # LLM Service
+  llm-service:
+    build: ./llm-service
+    container_name: shato-llm-service
+    ports:
+      - "8002:8002"
+    environment:
+      - PYTHONPATH=/app
+      - MODEL_RUNNER_URL=http://model-runner.docker.internal/engines/llama.cpp/v1
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+
+  # Robot Validator Service  
+  robot-validator:
+    build: ./robot-validator-api
+    container_name: shato-robot-validator
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # Orchestrator Service
+  orchestrator:
+    build: ./orchestrator-api
+    container_name: shato-orchestrator
+    ports:
+      - "8001:8001"
+    environment:
+      - PYTHONPATH=/app
+      - LLM_SERVICE_URL=http://llm-service:8002
+      - VALIDATOR_SERVICE_URL=http://robot-validator:8000
+    depends_on:
+      llm-service:
+        condition: service_healthy
+      robot-validator:
+        condition: service_healthy
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped
+
+networks:
+  shato-network:
+    driver: bridge
+    name: shato-network
