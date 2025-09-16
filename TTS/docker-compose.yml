@@ -1,8 +1,0 @@
-services:
-  parler-tts:
-    build: .
-    container_name: parler-tts-container
-    volumes:
-      - .:/app
-    stdin_open: true
-    tty: true

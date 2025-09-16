@@ -1,0 +1,4 @@
+gradio
+requests
+PyAudio
+numpy
