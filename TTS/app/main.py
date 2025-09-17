@@ -7,6 +7,7 @@ from parler_tts import ParlerTTSForConditionalGeneration
 from transformers import AutoTokenizer
 import soundfile as sf
 import numpy as np
+import re
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -23,6 +24,18 @@ app = FastAPI(
 model = None
 tokenizer = None
 device = None
+
+def clean_text_for_tts(text: str) -> str:
+    """
+    Clean text for TTS by removing punctuation and non-alphanumeric characters.
+    Keeps only letters, numbers, and spaces.
+    """
+    # Remove all characters that are not letters, numbers, or spaces
+    cleaned = re.sub(r'[^a-zA-Z0-9\s]', '', text)
+    # Replace multiple spaces with single space
+    cleaned = re.sub(r'\s+', ' ', cleaned)
+    # Strip leading/trailing whitespace
+    return cleaned.strip()
 
 @app.on_event("startup")
 async def startup_event():
@@ -94,7 +107,7 @@ async def synthesize_speech(request: dict):
     }
     """
     try:
-        text = request.get("text", "")
+        text = clean_text_for_tts(request.get("text", ""))
         correlation_id = request.get("correlation_id", "unknown")
         voice_description = request.get("voice_description", 
             "A female speaker delivers a slightly expressive and animated speech with clear pronunciation. "
