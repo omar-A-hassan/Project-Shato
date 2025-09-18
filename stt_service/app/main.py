@@ -56,7 +56,6 @@ async def transcribe(audio_file: UploadFile = File(...), correlation_id: str = "
         logger.error(f"[STT-SERVICE] transcription_failed correlation_id={correlation_id} error={str(e)}")
         raise HTTPException(status_code=500, detail=f"Transcription failed: {str(e)}")
 
-# Entry point
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8003)

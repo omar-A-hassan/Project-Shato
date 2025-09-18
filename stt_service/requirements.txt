@@ -1,6 +1,4 @@
 fastapi
 uvicorn
-sounddevice
-wavio
 openai-whisper
-numpy
+python-multipart
