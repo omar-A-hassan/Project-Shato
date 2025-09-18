@@ -114,14 +114,14 @@ async def synthesize_speech(request: dict):
     Request format:
     {
         "text": "Hello, I'm moving to position 5, 7",
-        "correlation_id": "abc123",
+        "correlation_id": "12345678",
         "voice_description": "optional custom voice description"
     }
 
     Response format:
     {
         "audio_data": "base64_encoded_wav_audio",
-        "correlation_id": "abc123",
+        "correlation_id": "12345678",
         "duration_ms": 2500,
         "sample_rate": 24000
     }

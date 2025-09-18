@@ -41,7 +41,7 @@ async def execute_command(request: CommandRequest):
         # Extract command, parameters, and correlation ID from request
         command = request.command
         command_params = request.command_params
-        correlation_id = getattr(request, 'correlation_id', 'unknown') or 'unknown'
+        correlation_id = request.correlation_id or 'unknown'
         
         logger.info("validator_request_received", extra={
             "correlation_id": correlation_id,
