@@ -1,4 +1,2 @@
 gradio
 requests
-PyAudio
-numpy

@@ -25,9 +25,5 @@ ENV PYTHONPATH=/app
 # Expose port 8002 (LLM service port)
 EXPOSE 8002
 
-# Health check for LLM service
-HEALTHCHECK --interval=60s --timeout=45s --start-period=120s --retries=3 \
-    CMD curl -f http://localhost:8002/health || exit 1
-
 # Run the LLM service
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8002"]

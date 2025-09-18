@@ -2,15 +2,10 @@ import gradio as gr
 import random
 import time
 import os
-import wave
-import pyaudio
-import threading
 import requests
 import base64
-import io
 import uuid
 import logging
-from datetime import datetime
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -18,114 +13,19 @@ logger = logging.getLogger(__name__)
 
 # Service URLs from environment variables
 ORCHESTRATOR_URL = os.getenv("ORCHESTRATOR_URL", "http://localhost:8001")
-STT_URL = os.getenv("STT_URL", "http://localhost:8003")  # Reserved for future STT integration
+STT_URL = os.getenv("STT_URL", "http://localhost:8003")
 TTS_URL = os.getenv("TTS_URL", "http://localhost:8004")
 
 logger.info(f"[UI-SERVICE] Orchestrator URL: {ORCHESTRATOR_URL}")
 logger.info(f"[UI-SERVICE] TTS URL: {TTS_URL}")
-logger.info(f"[UI-SERVICE] STT URL: {STT_URL} (reserved for future)")
+logger.info(f"[UI-SERVICE] STT URL: {STT_URL}")
 
-# Global recording variables
-recording = False
-audio_frames = []
-audio_stream = None
-p = None
-
-def start_recording():
-    """Start audio recording"""
-    global recording, audio_frames, audio_stream, p
-
-    try:
-        if recording:
-            return "⚠️ Already recording! Stop current recording first.", "🔴 Currently Recording..."
-
-        p = pyaudio.PyAudio()
-        audio_frames = []
-        recording = True
-
-        # Audio settings
-        CHUNK = 1024
-        FORMAT = pyaudio.paInt16
-        CHANNELS = 1
-        RATE = 44100
-
-        audio_stream = p.open(
-            format=FORMAT,
-            channels=CHANNELS,
-            rate=RATE,
-            input=True,
-            frames_per_buffer=CHUNK,
-        )
-
-        # Start recording in a separate thread
-        def record_audio():
-            while recording:
-                try:
-                    data = audio_stream.read(CHUNK)
-                    audio_frames.append(data)
-                except:
-                    break
-
-        recording_thread = threading.Thread(target=record_audio)
-        recording_thread.daemon = True
-        recording_thread.start()
-
-        return "🎤 Recording started... Speak now!", "🔴 Currently Recording..."
-
-    except Exception as e:
-        logger.error(f"[UI-SERVICE-ERROR] Error starting recording: {str(e)}")
-        return f"❌ Error starting recording: {str(e)}", "⏹️ Not Recording"
-
-def stop_recording():
-    """Stop audio recording and save the file"""
-    global recording, audio_frames, audio_stream, p
-
-    try:
-        if not recording:
-            return "⚠️ Not currently recording!", "⏹️ Not Recording", None
-
-        recording = False
-
-        if audio_stream:
-            audio_stream.stop_stream()
-            audio_stream.close()
-            audio_stream = None
-
-        if audio_frames and len(audio_frames) > 0:
-            # Create recordings directory if it doesn't exist
-            os.makedirs("recordings", exist_ok=True)
-
-            # Generate filename with timestamp
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"recordings/recording_{timestamp}.wav"
-
-            # Save the audio file
-            wf = wave.open(filename, "wb")
-            wf.setnchannels(1)
-            wf.setsampwidth(2)  # 16-bit = 2 bytes
-            wf.setframerate(44100)
-            wf.writeframes(b"".join(audio_frames))
-            wf.close()
-
-            # Clear the frames for next recording
-            audio_frames = []
-
-            if p:
-                p.terminate()
-                p = None
-
-            return f"✅ Recording saved as: {filename}", "⏹️ Not Recording", filename
-        else:
-            return "❌ No audio data recorded", "⏹️ Not Recording", None
-
-    except Exception as e:
-        logger.error(f"[UI-SERVICE-ERROR] Error stopping recording: {str(e)}")
-        return f"❌ Error stopping recording: {str(e)}", "⏹️ Not Recording", None
+# Audio recording now handled by Gradio's built-in microphone input
 
 def process_text_input(text_input):
     """Process text input through the orchestrator"""
     if not text_input.strip():
-        return "❌ Please enter some text", None, "No response"
+        return "Please enter some text", None, "No response"
 
     try:
         correlation_id = str(uuid.uuid4())[:8]
@@ -164,16 +64,16 @@ def process_text_input(text_input):
             
             return response_text, audio_file, response_text
         else:
-            error_msg = f"❌ Orchestrator error: {response.status_code}"
+            error_msg = f"Orchestrator error: {response.status_code}"
             logger.error(f"[UI-SERVICE-ERROR] {error_msg}")
             return error_msg, None, "Error occurred"
             
     except requests.exceptions.RequestException as e:
-        error_msg = f"❌ Connection error: {str(e)}"
+        error_msg = f"Connection error: {str(e)}"
         logger.error(f"[UI-SERVICE-ERROR] {error_msg}")
         return error_msg, None, "Connection error"
     except Exception as e:
-        error_msg = f"❌ Unexpected error: {str(e)}"
+        error_msg = f"Unexpected error: {str(e)}"
         logger.error(f"[UI-SERVICE-ERROR] {error_msg}")
         return error_msg, None, "Unexpected error"
 
@@ -215,37 +115,73 @@ def generate_tts_audio(text, correlation_id):
     return None
 
 def process_voice_recording(audio_file_path):
-    """Process voice recording (STT placeholder + orchestrator + TTS)"""
-    if not audio_file_path:
-        return "❌ No audio file provided", None, "No audio"
-    
+    """Process voice recording through orchestrator (STT + LLM + Validator + TTS)"""
+    if not audio_file_path or not os.path.exists(audio_file_path):
+        return "No audio file provided or file not found", None, "No audio"
+
     try:
-        # STT PLACEHOLDER - For now, return placeholder text
-        # TODO: Integrate with STT service when available
-        placeholder_text = "Hello SHATO, move to position 5 and 7"
-        
-        logger.info(f"[UI-SERVICE] Processing voice recording: {audio_file_path}")
-        logger.info(f"[UI-SERVICE] STT PLACEHOLDER - Using text: {placeholder_text}")
-        
-        # Process through orchestrator (same as text input)
-        result_text, audio_response, response_text = process_text_input(placeholder_text)
-        
-        # Add STT placeholder info to response
-        full_result = f"🎤 Voice Input (STT Placeholder): {placeholder_text}\n\n{result_text}"
-        
-        return full_result, audio_response, response_text
-        
-    except Exception as e:
-        error_msg = f"❌ Voice processing error: {str(e)}"
+        correlation_id = str(uuid.uuid4())[:8]
+
+        logger.info("ui_voice_request", extra={
+            "correlation_id": correlation_id,
+            "audio_file": audio_file_path,
+            "service": "ui-service"
+        })
+
+        # Send audio file to orchestrator for STT + processing
+        with open(audio_file_path, "rb") as audio_file:
+            files = {"audio_file": audio_file}
+            data = {"correlation_id": correlation_id}
+
+            response = requests.post(
+                f"{ORCHESTRATOR_URL}/process_voice",
+                files=files,
+                data=data,
+                timeout=None
+            )
+
+        if response.status_code == 200:
+            data = response.json()
+            response_text = data.get("response", "No response from system")
+            transcribed_text = data.get("transcribed_text", "")
+            command = data.get("command")
+
+            # Log the response
+            logger.info("ui_voice_response", extra={
+                "correlation_id": correlation_id,
+                "transcribed_text": transcribed_text,
+                "response": response_text,
+                "command": command,
+                "service": "ui-service"
+            })
+
+            # Generate TTS audio
+            audio_file = generate_tts_audio(response_text, correlation_id)
+
+            # Show transcribed text in result
+            full_result = f"Voice Input: {transcribed_text}\n\n{response_text}"
+
+            return full_result, audio_file, response_text
+        else:
+            error_msg = f"Voice processing error: {response.status_code}"
+            logger.error(f"[UI-SERVICE-ERROR] {error_msg}")
+            return error_msg, None, "Voice processing error"
+
+    except requests.exceptions.RequestException as e:
+        error_msg = f"Connection error: {str(e)}"
         logger.error(f"[UI-SERVICE-ERROR] {error_msg}")
-        return error_msg, None, "Voice processing error"
+        return error_msg, None, "Connection error"
+    except Exception as e:
+        error_msg = f"Unexpected error: {str(e)}"
+        logger.error(f"[UI-SERVICE-ERROR] {error_msg}")
+        return error_msg, None, "Unexpected error"
 
 # Create the Gradio interface
 with gr.Blocks(title="SHATO Project", theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 🤖 SHATO Voice-Controlled Robot Assistant")
+    gr.Markdown("# SHATO Voice-Controlled Robot Assistant")
     gr.Markdown("Interact with SHATO through text or voice commands!")
     
-    with gr.Tab("💬 Text Interaction"):
+    with gr.Tab("Text Interaction"):
         gr.Markdown("## Text-Based Interaction")
         gr.Markdown("Type your command or question for SHATO:")
         
@@ -277,68 +213,42 @@ with gr.Blocks(title="SHATO Project", theme=gr.themes.Soft()) as demo:
             outputs=[text_response, text_audio_output, gr.State()]
         )
     
-    with gr.Tab("🎤 Voice Interaction"):
+    with gr.Tab("Voice Interaction"):
         gr.Markdown("## Voice-Based Interaction")
-        gr.Markdown("Record your voice command for SHATO:")
-        
+        gr.Markdown("Record your voice command for SHATO using your browser's microphone:")
+
         with gr.Row():
             with gr.Column():
-                start_record_btn = gr.Button(
-                    "🔴 Start Recording", variant="stop", size="lg"
+                audio_input = gr.Audio(
+                    label="🎤 Record Your Voice Command",
+                    sources=["microphone"],
+                    type="filepath"
                 )
-                stop_record_btn = gr.Button(
-                    "⏹️ Stop Recording", variant="secondary", size="lg"
-                )
-                
-                recording_status = gr.Textbox(
-                    label="Recording Status", 
-                    value="⏹️ Not Recording", 
-                    interactive=False
-                )
-                
+
                 process_voice_btn = gr.Button(
-                    "🎯 Process Voice Command", variant="primary", size="lg"
+                    "Process Voice Command", variant="primary", size="lg"
                 )
-                
+
             with gr.Column():
-                recording_output = gr.Textbox(
-                    label="Recording Result", 
-                    lines=3, 
-                    interactive=False
-                )
-                
                 voice_response = gr.Textbox(
                     label="SHATO Voice Response",
                     lines=8,
                     interactive=False
                 )
-                
+
                 voice_audio_output = gr.Audio(
                     label="🔊 Audio Response",
                     interactive=False
                 )
-        
-        # Hidden state for audio file path
-        audio_file_state = gr.State()
-        
+
         # Connect voice interaction
-        start_record_btn.click(
-            fn=start_recording,
-            outputs=[recording_output, recording_status]
-        )
-        
-        stop_record_btn.click(
-            fn=stop_recording,
-            outputs=[recording_output, recording_status, audio_file_state]
-        )
-        
         process_voice_btn.click(
             fn=process_voice_recording,
-            inputs=[audio_file_state],
+            inputs=[audio_input],
             outputs=[voice_response, voice_audio_output, gr.State()]
         )
     
-    with gr.Tab("🔧 System Status"):
+    with gr.Tab("System Status"):
         gr.Markdown("## Service Status")
         
         def check_service_status():
@@ -346,22 +256,22 @@ with gr.Blocks(title="SHATO Project", theme=gr.themes.Soft()) as demo:
             services = {
                 "Orchestrator": ORCHESTRATOR_URL,
                 "TTS Service": TTS_URL,
-                "STT Service": STT_URL + " (Not implemented yet)"
+                "STT Service": STT_URL
             }
             
             status_text = "### Service Health Check:\n"
             for service_name, url in services.items():
                 try:
                     if "Not implemented" in url:
-                        status_text += f"- **{service_name}**: 🔄 Reserved for future implementation\n"
+                        status_text += f"- **{service_name}**: Reserved for future implementation\n"
                     else:
                         response = requests.get(f"{url.split(' ')[0]}/health", timeout=5)
                         if response.status_code == 200:
-                            status_text += f"- **{service_name}**: ✅ Healthy\n"
+                            status_text += f"- **{service_name}**: Healthy\n"
                         else:
-                            status_text += f"- **{service_name}**: ⚠️ Unhealthy ({response.status_code})\n"
+                            status_text += f"- **{service_name}**: Unhealthy ({response.status_code})\n"
                 except Exception as e:
-                    status_text += f"- **{service_name}**: ❌ Unreachable\n"
+                    status_text += f"- **{service_name}**: Unreachable\n"
             
             return status_text
         
