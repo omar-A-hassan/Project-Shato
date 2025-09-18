@@ -10,4 +10,4 @@ Microservices architecture for SHATO.
 - tts-service (implemented)
 - ui-service (implemented)
 - 
-  orchestrator-api (pending)
+  orchestrator-api (implemented)
