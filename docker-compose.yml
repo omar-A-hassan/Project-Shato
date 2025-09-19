@@ -1,0 +1,132 @@
+services:
+  # LLM Service
+  llm-service:
+    build: ./llm-service
+    container_name: shato-llm-service
+    ports:
+      - "8002:8002"
+    environment:
+      - PYTHONPATH=/app
+      - MODEL_RUNNER_URL=http://model-runner.docker.internal/engines/llama.cpp/v1
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8002/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+
+  # Robot Validator Service  
+  robot-validator:
+    build: ./robot-validator-api
+    container_name: shato-robot-validator
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+
+  # STT Service
+  stt-service:
+    build: ./stt_service
+    container_name: shato-stt-service
+    ports:
+      - "8003:8003"
+    environment:
+      - PYTHONPATH=/app
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8003/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # Orchestrator Service
+  orchestrator:
+    build: ./orchestrator-api
+    container_name: shato-orchestrator
+    ports:
+      - "8001:8001"
+    environment:
+      - PYTHONPATH=/app
+      - LLM_SERVICE_URL=http://llm-service:8002
+      - VALIDATOR_SERVICE_URL=http://robot-validator:8000
+      - STT_SERVICE_URL=http://stt-service:8003
+    depends_on:
+      llm-service:
+        condition: service_healthy
+      robot-validator:
+        condition: service_healthy
+      stt-service:
+        condition: service_healthy
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+
+  # TTS Service
+  tts-service:
+    build: ./TTS
+    container_name: shato-tts-service
+    ports:
+      - "8004:8004"
+    environment:
+      - PYTHONPATH=/app
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8004/health"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 10s
+    restart: unless-stopped
+
+  # UI Service  
+  ui-service:
+    build: ./UI
+    container_name: shato-ui-service
+    ports:
+      - "7860:7860"
+    environment:
+      - PYTHONPATH=/app
+      - ORCHESTRATOR_URL=http://orchestrator:8001
+      - TTS_URL=http://tts-service:8004
+      - STT_URL=http://stt-service:8003
+    depends_on:
+      orchestrator:
+        condition: service_healthy
+      tts-service:
+        condition: service_started
+    networks:
+      - shato-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860"]
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 5s
+    restart: unless-stopped
+
+networks:
+  shato-network:
+    driver: bridge
+    name: shato-network
